@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Grid Layout</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+</head>
+<body>
+       <!--======= Header =======-->
+       <div class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <h1>Le Chateau</h1>
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="women.html">WOMEN</a></li>
+            <li><a href="#">MEN</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+
+        <div class="right-section">
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search for products...">
+                <button type="button" id="search-btn">🔍</button>
+            </div>            
+            <div class="location-selector">
+                <a href="#">US</a> | <a href="#">EU</a>
+            </div>
+            <div class="icon-links">
+                <a href="recent.html"><i class="fas fa-eye fa-lg"></i></a>
+                <a href="wishlist.html"><i class="far fa-heart fa-lg"></i></a>
+                <a href="login.html"><i class="far fa-user fa-lg"></i></a>        
+                <a href="cart.html"><i class="fas fa-shopping-bag fa-lg"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="categories">
+        <ul>
+            <li><a href="#">NEW IN</a></li>
+            <li><a href="#">CLOTHING</a></li>
+            <li><a href="#">DRESSES</a></li>
+            <li><a href="#">MATCHING SETS</a></li>
+            <li><a href="#">TOPS</a></li>
+            <li><a href="#">JEANS</a></li>
+            <li><a href="#">BOTTOMS</a></li>
+            <li><a href="#">JUMPSUITS</a></li>
+            <li><a href="#">SHOES</a></li>
+            <li><a href="#">ACCESSORIES</a></li>
+            <li><a href="#">BAGS</a></li>
+        </ul>
+    </div>
+
+<!-- Filter Buttons Section -->
+<!-- Filter Buttons -->
+<div class="filters">
+    <button class="filter-btn active" data-category="all">All</button>
+    <button class="filter-btn" data-category="new">New</button>
+    <button class="filter-btn" data-category="dresses">Dresses</button>
+    <button class="filter-btn" data-category="2-piece">2 Piece</button>
+    <button class="filter-btn" data-category="jumpsuit">Jumpsuit</button>
+    <button class="filter-btn" data-category="bottoms">Bottoms</button>
+    <button class="filter-btn" data-category="Elegance">Elegance</button>
+</div>
+
+<!-- Products -->
+<div class="product-grid"> 
+    <div class="product new dresses">
+        <img src="img/w1.jpg" alt="Dress 1">
+        <h3>One-Shoulder Floral Mini Dress</h3>
+        <p class="price">34.99</p>
+    </div>
+
+    <div class="product dresses">
+        <img src="img/w2.jpg" alt="Dress 1">
+        <h3>Metallic Midi Dress</h3>
+        <p class="price">34.99</p>
+    </div>
+
+    <div class="product dresses">
+        <img src="img/w3.jpg" alt="Dress 1">
+        <h3>Geometric Print Mini Dress-Black</h3>
+        <p class="price">34.99</p>
+        </div>
+
+        <div class="product dresses">
+            <img src="img/w4.jpg" alt="Dress 1">
+            <h3> Asymmetrical Print Mini Dress-Pink</h3>
+            <p class="price">34.99</p>
+            </div>
+        
+            <div class="product dresses">
+                <img src="img/w5.jpg" alt="Dress 1">
+                <h3> Floral Puff Sleeve Bodycon Dress</h3>
+                <p class="price">34.99</p>
+                </div>
+
+                <div class="product 2-piece">
+                    <img src="img/w6.jpg" alt="Dress 1">
+                    <h3>  Floral Pleated Skirt Set-Blue</h3>
+                    <p class="price">34.99</p>
+                    </div>
+
+                    <div class="product dresses">
+                        <img src="img/w7.jpg" alt="Dress 1">
+                        <h3> Bow Off-Shoulder Mini Dress</h3>
+                        <p class="price">34.99</p>
+                        </div>
+
+                        <div class="product dresses">
+                            <img src="img/w8.jpg" alt="Dress 1">
+                            <h3> Pleated Rose Mini Dress</h3>
+                            <p class="price">34.99</p>
+                            </div>
+
+                            <div class="product dresses">
+                                <img src="img/w9.jpg" alt="Dress 1">
+                                <h3> Chain Reaction Mini Dress-Red</h3>
+                                <p class="price">34.99</p>
+                                </div>
+
+                                <div class="product dresses">
+                                    <img src="img/w10.jpg" alt="Dress 1">
+                                    <h3> Feathered Bow Off-Shoulder Mini Dress</h3>
+                                    <p class="price">34.99</p>
+                                    </div>
+
+                                <div class="product 2-piece">
+                                    <img src="img/w16.jpg" alt="Dress 1">
+                                    <h3>   Two-Piece Cold Shoulder Sleeves Skirt</h3>
+                                    <p class="price">34.99</p>
+                                </div>
+                    
+
+                                <div class="product dresses">
+                                   <img src="img/w11.jpg" alt="Dress 1">
+                                    <h3> Sparkling Sleeveless Dress-Violet</h3>
+                                    <p class="price">34.99</p>
+                                </div>
+
+                                <div class="product dresses">
+                                    <img src="img/w12.jpg" alt="Dress 1">
+                                    <h3> Sparkling Mesh Overlay Dress-Violet</h3>
+                                    <p class="price">34.99</p>
+                               </div>
+
+                               <div class="product dresses">
+                                <img src="img/w17.jpg" alt="Dress 1">
+                                 <h3> Kaftan Beach Dress (Bikini Included)</h3>
+                                 <p class="price">34.99</p>
+                             </div>
+
+                             <div class="product dresses">
+                                <img src="img/w13.jpg" alt="Dress 1">
+                                 <h3> Mesh Overlay Top Dress</h3>
+                                 <p class="price">34.99</p>
+                             </div>
+
+                             <div class="product 2-piece">
+                                <img src="img/w18.jpg" alt="Dress 1">
+                                <h3>  Rainbow Wave Pant Set</h3>
+                                <p class="price">34.99</p>
+                            </div>
+
+                            <div class="product dresses">
+                                <img src="img/w14.jpg" alt="Dress 1">
+                                 <h3> Lace Elegance Dress-Green</h3>
+                                 <p class="price">$34.99</p>
+                             </div>
+                            
+                             <div class="product dresses">
+                                <img src="img/w15.jpg" alt="Dress 1">
+                                 <h3> Beaded Neck Dress-Yellow</h3>
+                                 <p class="price">$34.99</p>
+                             </div>
+
+                             <div class="product 2-piece">
+                                <img src="img/w19.jpg" alt="Dress 1">
+                                <h3>  Geometric Gem Pant Set</h3>
+                                <p class="price">$34.99</p>
+                            </div>
+
+                            <div class="product 2-piece">
+                                <img src="img/w20.jpg" alt="Dress 1">
+                                <h3>  Tropical Tapestry Pant Set</h3>
+                                <p class="price">$34.99</p>
+                            </div>
+
+                            <div class="product 2-piece">
+                                <img src="img/w21.jpg" alt="Dress 1">
+                                <h3>  Ruffle Sleeve Floral Embroidered Organza Top And Skirt Set</h3>
+                                <p class="price">34.99</p>
+                            </div>
+
+                            <div class="product 2-piece">
+                                <img src="img/w22.jpg" alt="Dress 1">
+                                <h3>  Printed Chiffon Top and Pant Set</h3>
+                                <p class="price">34.99</p>
+                            </div>
+                            
+                            <div class="product 2-piece">
+                                <img src="img/w23.jpg" alt="Dress 1">
+                                <h3>  Striped Floral Organza Top And Pant Set</h3>
+                                <p class="price">34.99</p>
+                            </div>
+    
+    <div class="product jumpsuit">
+        <img src="img/w29.jpg" alt="Jumpsuit 1">
+        <h3>Gold Chain Sleeve One-shoulder Jumpsuit-Pink </h3>
+        <p class="price">39.99</p>
+    </div>
+
+    <div class="product 2-piece">
+        <img src="img/w24.jpg" alt="Dress 1">
+        <h3>  Floral Printed Kaftan Top And Pant Set</h3>
+        <p class="price">34.99</p>
+    </div>
+
+    <div class="product 2-piece">
+        <img src="img/w25.jpg" alt="Dress 1">
+        <h3>  Striped Kimono Jacket Pant Set</h3>
+        <p class="price">34.99</p>
+    </div>
+
+    <div class="product dresses">
+        <img src="img/w35.jpg" alt="Dress 2">
+        <h3>Mesh Overlay Embellished Dress</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product 2-piece">
+        <img src="img/w32.jpg" alt="Dress 1">
+        <h3>  Red Embellished Two-Piece Pant Set</h3>
+        <p class="price">34.99</p>
+    </div>
+
+    <div class="product jumpsuit">
+        <img src="img/w31.jpg" alt="Jumpsuit 1">
+        <h3> Plunging Neckline Snake Print Cape Jumpsuit </h3>
+        <p class="price">39.99</p>
+    </div>
+
+    <div class="product 2-piece">
+        <img src="img/w30.jpg" alt="Dress 1">
+        <h3>  Camouflage Two-Piece Pant Set</h3>
+        <p class="price">34.99</p>
+    </div>
+
+    <div class="product 2-piece">
+        <img src="img/w26.jpg" alt="Dress 1">
+        <h3> Floral Printed Two-Piece Pant Set</h3>
+        <p class="price">34.99</p>
+    </div>
+
+    <div class="product dresses">
+        <img src="img/w34.jpg" alt="Dress 2">
+        <h3>Pleated Ruffle Maxi Dress</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product 2-piece">
+        <img src="img/w27.jpg" alt="Dress 1">
+        <h3> Color Block Two-Piece Set</h3>
+        <p class="price">34.99</p>
+    </div>
+
+    <div class="product 2-piece">
+        <img src="img/w28.jpg" alt="Dress 1">
+        <h3> Don't Fight Plaid Pant Set</h3>
+        <p class="price">34.99</p>
+    </div>
+
+    <div class="product jumpsuit">
+        <img src="img/w33.jpg" alt="Dress 1">
+        <h3> Mesh Floral Jumpsuit</h3>
+        <p class="price">34.99</p>
+    </div>
+
+    <div class="product dresses">
+        <img src="img/w36.jpg" alt="Dress 2">
+        <h3>Tiered Snake Print Maxi Dress</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product dresses">
+        <img src="img/w37.jpg" alt="Dress 2">
+        <h3>Vintage Lace Dress</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product 2-piece">
+        <img src="img/w50.jpg" alt="Dress 1">
+        <h3>Ruffled Top and Skirt Two-Piece Set</h3>
+        <p class="price">34.99</p>
+    </div>
+
+    <div class="product dresses">
+        <img src="img/w38.jpg" alt="Dress 2">
+        <h3>Floral Pleated Maxi Dress</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product dresses">
+        <img src="img/w39.jpg" alt="Dress 2">
+        <h3>Lace-Top Maxi Dress with Slit-Black</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product dresses">
+        <img src="img/w40.jpg" alt="Dress 2">
+        <h3>Embellished Cape Maxi Dress</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product dresses">
+        <img src="img/w41.jpg" alt="Dress 2">
+        <h3>Bell Sleeve Flowy Maxi Dress</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product dresses">
+        <img src="img/w42.jpg" alt="Dress 2">
+        <h3>Floral Tiered Maxi Dress</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product dresses">
+        <img src="img/w43.jpg" alt="Dress 2">
+        <h3>Nude Bodycon Maxi Dress</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product 2-piece">
+        <img src="img/w55.jpg" alt="Dress 2">
+        <h3>Embellished Two-Piece Skirt Set- Blue</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product dresses">
+        <img src="img/w44.jpg" alt="Dress 2">
+        <h3>Floral Midi Dress with Belt</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product dresses">
+        <img src="img/w45.jpg" alt="Dress 2">
+        <h3>Floral Maxi Dress Asymmetrical Shoulder-Red</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product dresses">
+        <img src="img/w46.jpg" alt="Dress 2">
+        <h3>Beaded Collar Dress with Ruffles</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product dresses">
+        <img src="img/w47.jpg" alt="Dress 2">
+        <h3>Sunset Print Mini Dress-Black</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product 2-piece">
+        <img src="img/w54.jpg" alt="Dress 2">
+        <h3>Tree Print Two-Piece Set with Pleated Skirt</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product dresses">
+        <img src="img/w48.jpg" alt="Dress 2">
+        <h3>Floral Wrap Midi Dress</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product dresses">
+        <img src="img/w49.jpg" alt="Dress 2">
+        <h3> Nude Beaded Collar Bodycon Dress</h3>
+        <p class="price">29.99</p>
+    </div>
+
+
+
+    <div class="product dresses">
+        <img src="img/w51.jpg" alt="Dress 2">
+        <h3>Plaid Trench Coat Dress</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product dresses Elegance">
+        <img src="img/w52.jpg" alt="Dress 2">
+        <h3>Beaded Midi Fringe Dress</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product 2-piece">
+        <img src="img/w61.jpg" alt="Dress 2">
+        <h3>Floral Sequin Mesh Top Pleated Skirt Two-Piece Set</h3>
+        <p class="price">29.99</p>
+    </div>
+
+
+    <div class="product dresses">
+        <img src="img/w56.jpg" alt="Dress 2">
+        <h3>Mesh Overlay Midi Dress-White</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product dresses">
+        <img src="img/w53.jpg" alt="Dress 2">
+        <h3>Lavender Beaded Fringe Mini Dress</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product 2-piece">
+        <img src="img/w60.jpg" alt="Dress 2">
+        <h3>Floral Sequin Mesh Top Pleated Skirt Two-Piece Set</h3>
+        <p class="price">29.99</p>
+    </div>
+
+
+    <div class="product dresses Elegance">
+        <img src="img/w57.jpg" alt="Dress 2">
+        <h3>Floral Fantasy</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product dresses">
+        <img src="img/w58.jpg" alt="Dress 2">
+        <h3>Lace Mini Dress-White</h3>
+        <p class="price">29.99</p>
+    </div>
+
+    <div class="product dresses Elegance">
+        <img src="img/w59.jpg" alt="Dress 2">
+        <h3>Golden Glamour</h3>
+        <p class="price">29.99</p>
+    </div>
+
+
+
+
+
+    <div class="product bottoms">
+        <img src="img/jeans1.jpg" alt="Jeans 1">
+        <h3>Skinny Jeans</h3>
+        <p class="price">$49.99</p>
+    </div>
+
+    
+</div>
+
+
+
+
+</body>
+<script src="js/filter.js"></script>
+<script src="js/main.js"></script>
+<script src="js/search.js"></script>
+</html>
